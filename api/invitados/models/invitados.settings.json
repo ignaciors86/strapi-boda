@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "invitados",
+  "info": {
+    "name": "invitados",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    }
+  }
+}
