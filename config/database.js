@@ -5,12 +5,12 @@ module.exports = ({ env }) => ({
       connector: 'bookshelf',
       settings: {
         client: 'postgres',
-        host: env('DATABASE_HOST', '127.0.0.1'),
-        port: env.int('DATABASE_PORT', 5432),
-        database: env('DATABASE_NAME', 'strapi-boda'),
-        username: env('DATABASE_USERNAME', 'boda-user'),
-        password: env('DATABASE_PASSWORD', 'monopoly'),
-        ssl: env.bool('DATABASE_SSL', false),
+        host: env('DATABASE_HOST', 'ep-cold-field-a2gev6fg-pooler.eu-central-1.aws.neon.tech'),
+        // port: env.int('DATABASE_PORT', 5432),
+        database: env('DATABASE_NAME', 'neondb'),
+        username: env('DATABASE_USERNAME', 'neondb_owner'),
+        password: env('DATABASE_PASSWORD', 'xYViHwT5MtI1'),
+        ssl: env.bool('DATABASE_SSL', true),
       },
       options: {}
     },
